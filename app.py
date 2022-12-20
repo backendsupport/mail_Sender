@@ -7,7 +7,9 @@ email_password='qksouevymaduszon'
 email_sender='varx4coder@gmail.com'
 app=Flask(__name__)
 
-
+@app.route('/')
+def index():
+    return 'hello'
 @app.route('/mail', methods=['POST'])
 def send_mail():
     record = json.loads(request.data)
