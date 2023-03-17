@@ -4,8 +4,8 @@ import smtplib
 import json
 from flask import Flask, request, jsonify
 from flask_cors import CORS, cross_origin
-email_password='kgehtoqmddftoreb'
-email_sender='project8handler@gmail.com'
+email_password='qksouevymaduszon'
+email_sender='varx4coder@gmail.com'
 app=Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'application/json'
